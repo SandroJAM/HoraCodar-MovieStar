@@ -22,8 +22,6 @@ require_once("db.php");
 </head>
 
 <body>
-    <!-- <h1>Testando MovieStar</h1>
-    <i class="far fa-plus-square"></i> -->
     <header>
         <nav id="main-navbar" class="navbar navbar-expand-lg">
             <a href="<?= $BASE_URL ?>" class="navbar-band">
@@ -52,7 +50,7 @@ require_once("db.php");
         <h1>Corpo do Site</h1>
     </div>
     <footer id="footer">
-        <div class="social-container">
+        <div id="social-container">
             <ul>
                 <li>
                     <a href="#" class="fab fa-facebook-square"></a>
